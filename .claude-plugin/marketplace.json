@@ -1,0 +1,19 @@
+{
+  "name": "sam-serra-plugins",
+  "owner": {
+    "name": "Sam Serra",
+    "email": "hello@samserra.com"
+  },
+  "plugins": [
+    {
+      "name": "sdd-brief",
+      "source": "./plugins/sdd-brief",
+      "description": "Interview-style brief writer for Sam's SDD framework. Grills with one question at a time, surfaces contradictions in real time, runs four quality checks, writes a markdown PRD.",
+      "version": "0.8.0",
+      "author": {
+        "name": "Sam Serra"
+      },
+      "keywords": ["prd", "brief", "spec", "sdd", "spec-driven-development"]
+    }
+  ]
+}
