@@ -1,9 +1,0 @@
-{
-  "name": "sdd-brief",
-  "version": "0.8.0",
-  "description": "Grill-me style interview that produces a strong PRD in Sam's SDD framework format. One question at a time with recommended answers, surfaces contradictions in real time and on a mandatory periodic snapshot, runs 4 quality checks before render. v0.8 adds host whitelist and image-extension allowlist for §11 mockup URLs (closes the google.com gap from v0.7).",
-  "author": {
-    "name": "Sam Serra"
-  },
-  "keywords": ["prd", "brief", "spec", "sdd", "spec-driven-development"]
-}

@@ -1,0 +1,9 @@
+{
+  "name": "agent-plumb-brief",
+  "version": "0.8.0",
+  "description": "Agent Plumb Briefing 🪡 — grill-me style interview that turns a 1-3 sentence pitch into an 11-section markdown brief. Pairs with Agent Plumb (`/sdd-start`) to feed the brief-intake action cleanly. One question at a time with recommended answers, surfaces contradictions in real time, runs 4 quality checks before render. v0.8 adds host whitelist + image-extension allowlist for §11 mockup URLs.",
+  "author": {
+    "name": "Sam Serra"
+  },
+  "keywords": ["agent-plumb", "agent-plumb-brief", "plumb", "brief", "prd", "spec", "spec-driven-development"]
+}

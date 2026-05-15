@@ -1,4 +1,4 @@
-# sdd-brief
+# agent-plumb-brief
 
 A Cowork plugin that turns a rough feature idea into a strong brief in Sam's SDD framework format. Plain English, no jargon. Grilling style adapted from Matt Pocock's [grill-me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) skill.
 

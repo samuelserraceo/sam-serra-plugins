@@ -1,12 +1,12 @@
 # sam-serra-plugins
 
-A Claude plugin marketplace maintained by Sam Serra. Currently contains one plugin: **`sdd-brief`**.
+A Claude plugin marketplace maintained by Sam Serra. Currently contains one plugin: **`agent-plumb-brief`**.
 
 ## What's in this repo
 
 | Plugin | What it does | Version |
 |--------|--------------|---------|
-| **sdd-brief** | Interview-style PRD writer for Sam's SDD framework. Grills you with one question at a time, refuses fuzziness, writes a clean markdown brief. | 0.8.0 |
+| **agent-plumb-brief** | Interview-style PRD writer for Sam's SDD framework. Grills you with one question at a time, refuses fuzziness, writes a clean markdown brief. | 0.8.0 |
 
 ---
 
@@ -14,7 +14,7 @@ A Claude plugin marketplace maintained by Sam Serra. Currently contains one plug
 
 Three clicks, no terminal needed.
 
-1. Click **`sdd-brief.plugin`** in the file list above.
+1. Click **`agent-plumb-brief.plugin`** in the file list above.
 2. Click GitHub's **"Download raw file"** button (the icon next to the file size).
 3. Once downloaded, **double-click** the file. Cowork will open an install dialog. Click **Install**.
 
@@ -32,14 +32,14 @@ One command:
 
 ```bash
 /plugin marketplace add samuelserraceo/sam-serra-plugins
-/plugin install sdd-brief@sam-serra-plugins
+/plugin install agent-plumb-brief@sam-serra-plugins
 ```
 
 Replace `samuelserraceo/sam-serra-plugins` with the actual `samuelserraceo/sam-serra-plugins` once you create the repo on GitHub. Claude Code pulls from `main` by default and auto-detects updates.
 
 ---
 
-## What `sdd-brief` does
+## What `agent-plumb-brief` does
 
 You pitch a feature idea in 1-3 sentences. The skill then:
 
@@ -59,11 +59,11 @@ sam-serra-plugins/
 ├── .claude-plugin/
 │   └── marketplace.json      ← Claude Code marketplace manifest
 ├── plugins/
-│   └── sdd-brief/            ← plugin source (skills, references, manifest)
+│   └── agent-plumb-brief/            ← plugin source (skills, references, manifest)
 │       ├── .claude-plugin/plugin.json
 │       ├── skills/write-brief/...
 │       └── README.md
-├── sdd-brief.plugin          ← packaged bundle for Cowork (Option 1 install)
+├── agent-plumb-brief.plugin          ← packaged bundle for Cowork (Option 1 install)
 └── README.md                 ← this file
 ```
 
@@ -73,7 +73,7 @@ sam-serra-plugins/
 
 **"Plugin validation failed" on install.** Make sure you downloaded the raw file, not GitHub's HTML preview of the file. The `.plugin` file should be ~32 KB. If you see a few KB of HTML instead, repeat step 2 making sure you click the raw-download button.
 
-**Two `write-brief` entries in the slash menu after install.** You may have installed both the `.plugin` and a separate `.skill` file in the past. Go to Customize → Personal skills, remove the standalone `write-brief`, keep only the one under the `sdd-brief` plugin.
+**Two `write-brief` entries in the slash menu after install.** You may have installed both the `.plugin` and a separate `.skill` file in the past. Go to Customize → Personal skills, remove the standalone `write-brief`, keep only the one under the `agent-plumb-brief` plugin.
 
 **`/plugin marketplace add` errors in Claude Code.** Check that the repo is public (or that your Claude Code session has access to it). Marketplace add doesn't work for private repos on personal plans.
 
